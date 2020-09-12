@@ -15,17 +15,9 @@ const PageNode = createNodeFactory(PAGE);
 const TagNode = createNodeFactory(TAG);
 const SettingsNode = createNodeFactory(SETTINGS);
 
-const fakeNodes = [
-  PostNode(schema.post),
-  PageNode(schema.page),
-  TagNode(schema.tag),
-  SettingsNode(schema.settings)
-];
-
 module.exports = {
   PostNode,
   PageNode,
   TagNode,
   SettingsNode,
-  fakeNodes
 };
