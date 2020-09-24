@@ -105,6 +105,9 @@ const types = `
     icon: String
     cover_image: String
     facebook: String
+    youtube: String
+    instagram: String
+    twitch: String
     twitter: String
     lang: String!
     timezone: String!
